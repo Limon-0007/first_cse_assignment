@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* from  */
+
+.form {
+  padding: 30px 18px;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 36px #bababa, -20px -20px 36px #ffffff;
+  outline: none;
+  height: 420px;
+  width: 280px;
+}
+
+.form img {
+  height: 15px;
+  width: 65px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+label {
+  color: #000;
+  margin-left: 30px;
+}
+
+/* input */
+
+input {
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 58px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 30px #bababa, -5px -5px 30px #ffffff;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* button  */
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 30%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 30px #bababa, -20px -20px 30px #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+::placeholder {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 13px;
+}
+
+/* for span */
+span {
+  font-size: 12px;
+  color: #000;
+  margin-left: 1.5rem;
+}
+
+span a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
